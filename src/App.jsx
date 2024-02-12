@@ -7,6 +7,7 @@ import ImageSlider from "./components/04image-slider";
 import LoadMoreData from "./components/05load-more-data";
 import NestedMenu from "./components/06nested-menus";
 import menus from "./components/06nested-menus/nested-menus-data";
+import QRCodeGenerator from "./components/07qr-code-generator";
 
 function App() {
 	return (
@@ -31,7 +32,10 @@ function App() {
 			{/* <LoadMoreData /> */}
 
 			{/* 06Nested Menues */}
-			<NestedMenu menus={menus} />
+			{/* <NestedMenu menus={menus} /> */}
+
+			{/* QR Code Generator */}
+			<QRCodeGenerator />
 		</div>
 	);
 }
