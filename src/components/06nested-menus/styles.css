@@ -1,0 +1,21 @@
+.NMMain-container {
+	min-height: 80vh;
+	width: 350px;
+	background: rgb(6, 53, 53);
+	/* display: flex; */
+	/* align-items: center; */
+	border-radius: 0 5px 5px 0;
+}
+
+.NMMenu-list-container {
+	list-style: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.NMMenuItem-div {
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	color: #faebd7;
+}

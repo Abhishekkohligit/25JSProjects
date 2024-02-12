@@ -5,28 +5,33 @@ import RandomColor from "./components/02random-color";
 import StarRating from "./components/03star-rating";
 import ImageSlider from "./components/04image-slider";
 import LoadMoreData from "./components/05load-more-data";
+import NestedMenu from "./components/06nested-menus";
+import menus from "./components/06nested-menus/nested-menus-data";
 
 function App() {
 	return (
 		<div className="App">
-			{/* Accordian component */}
-			<Accordian />
-			{/* Randon Color Generator */}
-			<RandomColor />
+			{/* 01Accordian component */}
+			{/* <Accordian /> */}
+			{/* 02Randon Color Generator */}
+			{/* <RandomColor /> */}
 
-			{/* Star Rating */}
-			<StarRating noOfStars={10} />
+			{/* 03Star Rating */}
+			{/* <StarRating noOfStars={10} /> */}
 
-			{/* ImageSlider */}
-			<ImageSlider
+			{/* 04ImageSlider */}
+			{/* <ImageSlider
 				url={"https://picsum.photos/v2/list"}
 				page={"3"}
 				limit={"10"}
-			/>
+			/> */}
 
-			{/* load more products */}
+			{/* 05Load more products */}
 
-			<LoadMoreData />
+			{/* <LoadMoreData /> */}
+
+			{/* 06Nested Menues */}
+			<NestedMenu menus={menus} />
 		</div>
 	);
 }
