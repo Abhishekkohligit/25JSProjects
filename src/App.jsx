@@ -1,7 +1,9 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
-// import Accordian from "./components/accordian";
-// import RandomColor from "./components/random-color";
-import StarRating from "./components/star-rating";
+import Accordian from "./components/01accordian";
+import RandomColor from "./components/02random-color";
+import StarRating from "./components/03star-rating";
+import ImageSlider from "./components/04image-slider";
 
 function App() {
 	return (
@@ -12,7 +14,14 @@ function App() {
 			{/* <RandomColor /> */}
 
 			{/* Star Rating */}
-			<StarRating noOfStars={10} />
+			{/* <StarRating noOfStars={10} /> */}
+
+			{/* ImageSlider */}
+			<ImageSlider
+				url={"https://picsum.photos/v2/list"}
+				page={"3"}
+				limit={"10"}
+			/>
 		</div>
 	);
 }

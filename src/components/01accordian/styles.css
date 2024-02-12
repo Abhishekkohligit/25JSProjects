@@ -6,6 +6,7 @@
 	align-items: center;
 	flex-direction: column;
 	gap: 20px;
+	
 }
 
 .wrapper button {
@@ -15,12 +16,15 @@
 	font-weight: bold;
 	font-size: 20px;
 	cursor: pointer;
+	border-radius: 10px;
+	border: 2px solid antiquewhite;
 }
 
 .wrapper button.enabled {
 	background-color: antiquewhite;
 	color: #6157aa;
-	border: solid 2px #6157aa;
+	border: 2px solid #6157aa;
+	border-radius: 10px;
 }
 
 .accordian {
@@ -32,6 +36,7 @@
 	margin-bottom: 10px;
 	padding: 10px 20px;
 	border-radius: 10px;
+	color: antiquewhite;
 }
 .item:hover {
 	background: antiquewhite;

@@ -52,23 +52,25 @@ export default function RandomColor() {
 				color: color,
 				height: "100vh",
 				width: "100vw",
-	
 			}}
 			className="container"
 		>
 			<button
+				className="color-button"
 				// style={{ background: color }}
 				onClick={() => setTypeOfColor("hex")}
 			>
 				Create hex colors
 			</button>
 			<button
+				className="color-button"
 				// style={{ background: color }}
 				onClick={() => setTypeOfColor("rgb")}
 			>
 				create RGB Colors
 			</button>
 			<button
+				className="color-button"
 				// style={{ background: color }}
 				onClick={
 					typeOfColor === "hex" ? handleCreateHexColor : handleCreateRgbColor
@@ -76,11 +78,11 @@ export default function RandomColor() {
 			>
 				Generate Colors
 			</button>
-			<div style={{ color: color }} className="content">
+			<div style={{ color: color }} className="contentRandomColor">
 				<h1>
 					Type of Color generated is <span>{typeOfColor}</span>
 				</h1>
-				<span>{color}</span>
+				<span className="colorSpan">{color}</span>
 			</div>
 		</div>
 	);
