@@ -10,19 +10,19 @@ function App() {
 	return (
 		<div className="App">
 			{/* Accordian component */}
-			{/* <Accordian /> */}
+			<Accordian />
 			{/* Randon Color Generator */}
-			{/* <RandomColor /> */}
+			<RandomColor />
 
 			{/* Star Rating */}
-			{/* <StarRating noOfStars={10} /> */}
+			<StarRating noOfStars={10} />
 
 			{/* ImageSlider */}
-			{/* <ImageSlider
+			<ImageSlider
 				url={"https://picsum.photos/v2/list"}
 				page={"3"}
 				limit={"10"}
-			/> */}
+			/>
 
 			{/* load more products */}
 

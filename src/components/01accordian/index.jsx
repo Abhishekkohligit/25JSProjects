@@ -27,7 +27,8 @@ export default function Accordian() {
 	}
 
 	return (
-		<div className="wrapper">
+		<div className="accordianWrapper">
+			<h1>Accordian Component</h1>
 			<button
 				className={`${enableMultipleSelection && "enabled"}`}
 				onClick={() => setEnableMultipleSelection(!enableMultipleSelection)}

@@ -47,42 +47,52 @@ export default function RandomColor() {
 	}
 	return (
 		<div
+			className="colorWrapper"
 			style={{
 				background: color,
 				color: color,
-				height: "100vh",
-				width: "100vw",
 			}}
-			className="container"
 		>
-			<button
-				className="color-button"
-				// style={{ background: color }}
-				onClick={() => setTypeOfColor("hex")}
+			<div
+				style={{
+					background: color,
+					color: color,
+				}}
+				className="colorContainer"
 			>
-				Create hex colors
-			</button>
-			<button
-				className="color-button"
-				// style={{ background: color }}
-				onClick={() => setTypeOfColor("rgb")}
-			>
-				create RGB Colors
-			</button>
-			<button
-				className="color-button"
-				// style={{ background: color }}
-				onClick={
-					typeOfColor === "hex" ? handleCreateHexColor : handleCreateRgbColor
-				}
-			>
-				Generate Colors
-			</button>
-			<div style={{ color: color }} className="contentRandomColor">
-				<h1>
-					Type of Color generated is <span>{typeOfColor}</span>
-				</h1>
-				<span className="colorSpan">{color}</span>
+				<h1>Random Color Component</h1>
+				<button
+					className="color-button"
+					style={{ background: color, color: color }}
+					onClick={() => setTypeOfColor("hex")}
+				>
+					<span>Create hex colors</span>
+				</button>
+				<button
+					className="color-button"
+					style={{ background: color, color: color }}
+					onClick={() => setTypeOfColor("rgb")}
+				>
+					<span>Create RGB colors</span>
+				</button>
+				<button
+					className="color-button"
+					style={{ background: color, color: color }}
+					onClick={
+						typeOfColor === "hex" ? handleCreateHexColor : handleCreateRgbColor
+					}
+				>
+					<span>Create hex colors</span>
+				</button>
+				<div
+					style={{ background: color, color: color }}
+					className="contentRandomColor"
+				>
+					<h1>
+						Type of Color generated is <span>{typeOfColor}</span>
+					</h1>
+					<span className="colorSpan">{color}</span>
+				</div>
 			</div>
 		</div>
 	);

@@ -62,6 +62,7 @@ export default function ImageSlider({ url, limit = "5", page = "2" }) {
 
 	return (
 		<div className="sliderWrapper">
+			<h1>Image slider Component</h1>
 			<div className="sliderContainer">
 				<FaArrowAltCircleLeft
 					onClick={handlePrev}

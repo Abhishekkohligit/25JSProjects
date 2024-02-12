@@ -1,4 +1,4 @@
-.wrapper {
+.accordianWrapper {
 	display: flex;
 	height: 100vh;
 	width: 100vw;
@@ -9,7 +9,7 @@
 	
 }
 
-.wrapper button {
+.accordianWrapper button {
 	padding: 10px 20px;
 	background-color: #6157aa;
 	color: antiquewhite;
@@ -20,7 +20,7 @@
 	border: 2px solid antiquewhite;
 }
 
-.wrapper button.enabled {
+.accordianWrapper button.enabled {
 	background-color: antiquewhite;
 	color: #6157aa;
 	border: 2px solid #6157aa;

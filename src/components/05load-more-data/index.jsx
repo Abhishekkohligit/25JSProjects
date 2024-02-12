@@ -55,6 +55,7 @@ export default function LoadMoreData() {
 	console.log("products array", products);
 	return (
 		<div className="LMDwrapper">
+			<h1>Load More Data Component</h1>
 			<div className="LMDContainer">
 				<div className="LMDProduct-container">
 					{products && products.length
@@ -73,7 +74,9 @@ export default function LoadMoreData() {
 				<div className="LMDButton-container">
 					{disableButton && <p>You have reached the limit of 100 Products</p>}
 					<button
-						className={disableButton ? "LMDButton LMDButton-disabled" : "LMDButton"}
+						className={
+							disableButton ? "LMDButton LMDButton-disabled" : "LMDButton"
+						}
 						onClick={() => setCount(count + 1)}
 						disabled={disableButton}
 					>

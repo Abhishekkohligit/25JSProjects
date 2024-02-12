@@ -1,3 +1,20 @@
+.colorWrapper {
+	height: 95vh;
+	width: 95vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+.colorContainer {
+	
+	border-radius: 20px;
+}
+.colorContainer h1 {
+	filter: invert(1);
+	-webkit-filter: invert(1);
+}
+
 .contentRandomColor {
 	display: flex;
 	align-items: center;
@@ -6,13 +23,15 @@
 	font-size: 1rem;
 	flex-direction: column;
 	/* font-weight: ; */
-	filter: invert(65%);
-	-webkit-filter: invert(65%);
+	/* filter: invert(1);
+	-webkit-filter: invert(1); */
 }
 
-.contentRandomColor h1{
+.contentRandomColor h1 {
 	font-size: 80px;
 	font-weight: bold;
+	filter: invert(1);
+	-webkit-filter: invert(1);
 }
 
 .contentRandomColor h1 > span {
@@ -21,6 +40,8 @@
 .colorSpan {
 	font-size: 60px;
 	font-weight: bold;
+	filter: invert(1);
+	-webkit-filter: invert(1);
 }
 
 .color-button {
@@ -29,10 +50,14 @@
 	border: none;
 	font-size: medium;
 	border: 1px solid;
-	filter: invert(65%);
-	-webkit-filter: invert(65%);
-	mix-blend-mode: difference;
-
+	/* mix-blend-mode: difference; */
+	filter: invert(1);
+	-webkit-filter: invert(1);
 	font-weight: bolder;
 	font-size: larger;
+}
+
+.color-button span {
+	filter: invert(1);
+	-webkit-filter: invert(1);
 }
