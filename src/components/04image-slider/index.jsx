@@ -44,7 +44,7 @@ export default function ImageSlider({ url, limit = "5", page = "2" }) {
 	if (loading) {
 		return (
 			<div>
-				<VscLoading className="sliderLoadingIcon" size={40} />
+				<VscLoading className="LMDataLoading" size={40} />
 				<p>Images Loading Please wait...</p>
 			</div>
 		);

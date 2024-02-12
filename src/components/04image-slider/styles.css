@@ -58,3 +58,17 @@
 .slideUpdateCurrentIndicator {
 	background-color: gray;
 }
+
+.sliderLoadingIcon {
+	color: red;
+	animation: sliderLoadingIconAnimation infinite 1s linear;
+}
+
+@keyframes sliderLoadingIconAnimation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
