@@ -8,6 +8,7 @@ import LoadMoreData from "./components/05load-more-data";
 import NestedMenu from "./components/06nested-menus";
 import menus from "./components/06nested-menus/nested-menus-data";
 import QRCodeGenerator from "./components/07qr-code-generator";
+import LightDarkMode from "./components/08light-dark-mode";
 
 function App() {
 	return (
@@ -35,7 +36,10 @@ function App() {
 			{/* <NestedMenu menus={menus} /> */}
 
 			{/* QR Code Generator */}
-			<QRCodeGenerator />
+			{/* <QRCodeGenerator /> */}
+
+			{/* ThemeToggle */}
+			<LightDarkMode />
 		</div>
 	);
 }
