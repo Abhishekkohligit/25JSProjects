@@ -1,0 +1,50 @@
+.CTWrapper {
+	height: 95vh;
+	width: 95vw;
+	padding: 10px;
+	margin: 10px;
+	background-color: #706e6e;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.CTHeading {
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	margin-bottom: 12px;
+	padding: 5px;
+	gap: 5px;
+}
+
+.CTTab {
+	padding: 5px;
+	border: 2px solid antiquewhite;
+	color: antiquewhite;
+	border-radius: 10%;
+	display: inline-flex;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	cursor: pointer;
+
+	&.CTActive {
+		background-color: antiquewhite;
+		color: #3b3838;
+		border-color: #3b3838;
+	}
+}
+
+.CTContent {
+	width: 50vw;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: antiquewhite;
+	border: 2px solid antiquewhite;
+	border-radius: 40px;
+}
