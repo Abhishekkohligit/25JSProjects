@@ -9,6 +9,7 @@ import NestedMenu from "./components/06nested-menus";
 import menus from "./components/06nested-menus/nested-menus-data";
 import QRCodeGenerator from "./components/07qr-code-generator";
 import LightDarkMode from "./components/08light-dark-mode";
+import ScrollIndicator from "./components/scroll-indicator";
 
 function App() {
 	return (
@@ -39,7 +40,10 @@ function App() {
 			{/* <QRCodeGenerator /> */}
 
 			{/* ThemeToggle */}
-			<LightDarkMode />
+			{/* <LightDarkMode /> */}
+
+			{/* scroll indicator */}
+			<ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
 		</div>
 	);
 }
