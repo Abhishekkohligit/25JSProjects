@@ -1,0 +1,91 @@
+.CMP-ModelTest {
+	width: 100vw;
+	height: 100vh;
+	background-color: #d5bdaf;
+}
+.CMP-Button {
+	width: 100px;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid antiquewhite;
+	color: antiquewhite;
+	background-color: #283618;
+}
+
+.CMP-Modal {
+	position: fixed;
+	z-index: 1;
+	padding-top: 150px;
+	left: 0;
+	top: 0;
+
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: #023047;
+}
+
+.CMP-Content {
+	width: 80%;
+	border: 4px solid #0594db;
+	margin: auto;
+	border-radius: 10px;
+	animation-name: animateModel;
+	animation-duration: 0.5s;
+}
+
+.CMP-CloseModelIcon {
+	cursor: pointer;
+	color: antiquewhite;
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.CMP-CloseModelIcon:hover {
+	animation-name: animateClose;
+	animation-duration: 1s;
+}
+
+.CMP-Header {
+	padding: 4px 16px;
+	color: antiquewhite;
+	background-color: #034b6e;
+}
+
+.CMP-Body {
+	background-color: antiquewhite;
+	color: #034b6e;
+	height: 30vh;
+	padding: 2px 16px;
+}
+
+.CMP-Footer {
+	padding: 4px 16px;
+	color: antiquewhite;
+	background-color: #034b6e;
+}
+
+@keyframes animateModel {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes animateClose {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.5, 1.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}

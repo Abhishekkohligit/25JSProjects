@@ -10,6 +10,7 @@ import menus from "./components/06nested-menus/nested-menus-data";
 import QRCodeGenerator from "./components/07qr-code-generator";
 import LightDarkMode from "./components/08light-dark-mode";
 import TabTest from "./components/10custom-tabs/tabs-test";
+import ModelTest from "./components/custom-model-popup/model-test";
 // import ScrollIndicator from "./components/scroll-indicator";
 
 function App() {
@@ -47,7 +48,10 @@ function App() {
 			{/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
 			{/* custom Tabs */}
-			<TabTest />
+			{/* <TabTest /> */}
+
+			{/* custome Model Component */}
+			<ModelTest />
 		</div>
 	);
 }
