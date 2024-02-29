@@ -1,0 +1,53 @@
+.GPF-Container {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1000px;
+	padding: 20px;
+	border-radius: 8px;
+	background-color: #0077b6;
+	color: antiquewhite;
+}
+
+.GPF-InputWrapper {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+.GPF-InputWrapper input {
+	padding: 15px;
+	border: antiquewhite;
+	font-size: 16px;
+	width: 70%;
+	border-radius: 15px;
+}
+
+.GPF-InputWrapper button {
+	padding: 15px;
+	border: 2px solid antiquewhite;
+	border-radius: 15px;
+	font-weight: bold;
+	background: transparent;
+	color: antiquewhite;
+	cursor: pointer;
+}
+.GFB_User {
+	margin-top: 20px;
+	padding: 15px;
+	border-radius: 15px;
+}
+.GFB_User-Avatar {
+	border-radius: 50%;
+	height: 240px;
+	aspect-ratio: 1/1;
+}
+.GFB_User-Link {
+	font-weight: bold;
+	color: antiquewhite;
+	font-size: medium;
+}
+.GPF_User-Content {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	justify-content: center;
+}
