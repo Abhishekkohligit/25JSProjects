@@ -14,6 +14,7 @@ import TabTest from "./components/10custom-tabs/tabs-test";
 import ModelTest from "./components/11custom-model-popup/model-test";
 import GithubProfileFinder from "./components/12github-profile-finder";
 import SearchAutocomplete from "./components/13search-autocomplete-with-api";
+import TicTacToe from "./components/14tic-tac-toe";
 
 function App() {
 	return (
@@ -59,7 +60,10 @@ function App() {
 			{/* <GithubProfileFinder /> */}
 
 			{/* Search AutoComplete with Api */}
-			<SearchAutocomplete />
+			{/* <SearchAutocomplete /> */}
+
+			{/* Tic Tac Toe Game */}
+			<TicTacToe />
 		</div>
 	);
 }

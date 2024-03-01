@@ -1,0 +1,53 @@
+.TTT-Content {
+	width: 90vw;
+	height: 90vh;
+	background-color: #0096c7;
+	margin: 10px auto;
+	padding: 20px;
+	border-radius: 20px;
+	color: antiquewhite;
+}
+
+.TTT-Container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+}
+
+/* .TTT-Container::after {
+	clear: both;
+	content: "";
+	display: table;
+} */
+
+.TTT-Square {
+	border: 1px solid antiquewhite;
+	color: antiquewhite;
+	background-color: #023e8a;
+	float: left;
+	height: 100px;
+	width: 100px;
+	padding: 0px;
+	text-align: center;
+	margin-left: -1px;
+	margin-top: -1px;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+.TTT-RestartButton {
+	padding: 10px;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 10px;
+	border: 1px solid antiquewhite;
+	color: antiquewhite;
+	background-color: #023e8a;
+	cursor: pointer;
+}
+.TTT-RestartButton:hover {
+	border: 1px solid #023e8a;
+	color: #023e8a;
+	background-color: antiquewhite;
+}
