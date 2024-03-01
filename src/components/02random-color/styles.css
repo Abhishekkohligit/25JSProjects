@@ -5,9 +5,10 @@
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
+	margin: 10px auto;
+	border-radius: 20px;
 }
 .colorContainer {
-	
 	border-radius: 20px;
 }
 .colorContainer h1 {
@@ -42,6 +43,7 @@
 	font-weight: bold;
 	filter: invert(1);
 	-webkit-filter: invert(1);
+	text-transform: uppercase;
 }
 
 .color-button {

@@ -1,0 +1,8 @@
+.FF-Content {
+	background-image: url("https://background-tiles.com/overview/green/patterns/large/1059.png");
+}
+.FF-Layer-1 {
+	background: rgba(255, 255, 255, 0.5);
+	height: 100%;
+	backdrop-filter: blur(5px);
+}
