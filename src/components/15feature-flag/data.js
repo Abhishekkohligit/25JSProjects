@@ -3,7 +3,6 @@ const dummyApiResponse = {
 	showTicTacToe: true,
 	showRandomColorGenerator: true,
 	showAccordian: false,
-
 };
 
 function featureFlagsDataServiceCall() {

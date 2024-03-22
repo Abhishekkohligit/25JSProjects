@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import featureFlagsDataServiceCall from "../data";
 
-export const FeatureFLagsContext = createContext(null);
+export const FeatureFlagsContext = createContext(null);
 
 export default function FeatureFlagGlobalState({ children }) {
 	const [loading, setLoading] = useState(false);
@@ -29,8 +29,8 @@ export default function FeatureFlagGlobalState({ children }) {
 	}, []);
 
 	return (
-		<FeatureFLagsContext.Provider value={{ loading, enabledFlags }}>
+		<FeatureFlagsContext.Provider value={{ loading, enabledFlags }}>
 			{children}
-		</FeatureFLagsContext.Provider>
+		</FeatureFlagsContext.Provider>
 	);
 }

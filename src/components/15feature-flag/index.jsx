@@ -3,11 +3,12 @@ import Accordian from "../01accordian";
 import RandomColor from "../02random-color";
 import LightDarkMode from "../08light-dark-mode";
 import TicTacToe from "../14tic-tac-toe";
-import { FeatureFLagsContext } from "./context";
+
 import "./styles.css";
+import { FeatureFlagsContext } from "./context";
 
 export default function FeatureFlags() {
-	const { loading, enabledFlags } = useContext(FeatureFLagsContext);
+	const { loading, enabledFlags } = useContext(FeatureFlagsContext);
 
 	const componentsToRender = [
 		{
