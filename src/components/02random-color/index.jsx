@@ -66,7 +66,7 @@ export default function RandomColor() {
 					style={{ background: color, color: color }}
 					onClick={() => setTypeOfColor("hex")}
 				>
-					<span>Create hex colors</span>
+					<span>Create HEX colors</span>
 				</button>
 				<button
 					className="color-button"
@@ -82,7 +82,7 @@ export default function RandomColor() {
 						typeOfColor === "hex" ? handleCreateHexColor : handleCreateRgbColor
 					}
 				>
-					<span>Create hex colors</span>
+					<span>Create Colors</span>
 				</button>
 				<div
 					style={{ background: color, color: color }}

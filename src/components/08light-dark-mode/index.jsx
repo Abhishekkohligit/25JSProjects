@@ -8,12 +8,14 @@ export default function LightDarkMode() {
 		setTheme(theme === "light" ? "dark" : "light");
 	}
 
-	console.log(theme);
+	// console.log(theme);
 	return (
 		<div className="LDMMain" data-theme={theme}>
 			<div className="LDMContainer">
 				<p>Hello World</p>
-				<button className="LDMButton" onClick={handleToggleTheme}>Change Theme</button>
+				<button className="LDMButton" onClick={handleToggleTheme}>
+					Change Theme
+				</button>
 			</div>
 		</div>
 	);
