@@ -1,0 +1,37 @@
+.STT-container {
+	width: 70vw;
+
+	background-color: #023047;
+	margin: 10px auto;
+	border-radius: 20px;
+}
+.STT-wrapper {
+	border-radius: 20px;
+	color: antiquewhite;
+	padding: 10px;
+}
+
+.STT-Section {
+	background-color: antiquewhite;
+	color: #023047;
+	border-radius: 5px;
+}
+
+.STT-Button {
+	background-color: #023047;
+	color: antiquewhite;
+	border: 1px solid antiquewhite;
+	border-radius: 5px;
+	padding: 5px;
+	font-weight: bold;
+	margin: auto;
+}
+
+.STT-Button:hover {
+	background-color: antiquewhite;
+	color: #023047;
+	border: 1px solid #023047;
+}
+.STT-wrapper ul {
+	list-style: none;
+}
