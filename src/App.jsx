@@ -10,9 +10,10 @@ import menus from "./components/06nested-menus/nested-menus-data";
 import QRCodeGenerator from "./components/07qr-code-generator";
 import LightDarkMode from "./components/08light-dark-mode";
 import TabTest from "./components/10custom-tabs/tabs-test";
-import ModelTest from "./components/custom-model-popup/model-test";
-import GithubProfileFinder from "./components/github-profile-finder";
-// import ScrollIndicator from "./components/scroll-indicator";
+import ModelTest from "./components/11custom-model-popup/model-test";
+import GithubProfileFinder from "./components/12github-profile-finder";
+import SearchAutoComplete from "./components/13Search-auto-compelete-with-api";
+
 
 function App() {
 	return (
@@ -55,7 +56,12 @@ function App() {
 			{/* <ModelTest /> */}
 
 			{/* Github Profile Search */}
-			<GithubProfileFinder />
+			{/* <GithubProfileFinder /> */}
+
+			{/* Search auto complete with API */}
+
+			<SearchAutoComplete />
+
 		</div>
 	);
 }
